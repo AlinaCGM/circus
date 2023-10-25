@@ -1,3 +1,4 @@
+
 import React from 'react'
  import logo from '../../assets/logo.png'
 import './hero.css'
@@ -17,8 +18,10 @@ function Hero() {
  </div>
 
 
+
     </div>
-  )
+  );
 }
+
 
 export default Hero 

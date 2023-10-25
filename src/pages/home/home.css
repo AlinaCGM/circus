@@ -1,5 +1,9 @@
+body {
+  background-color: #191e22;
+}
+
 .home-container {
-    width:100%;
-    height:200vh;
-    background-color: #191E22;
+  width: 100%;
+  height: 200vh;
+  background-color: #191e22;
 }
