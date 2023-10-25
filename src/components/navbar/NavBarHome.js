@@ -1,8 +1,23 @@
 import React from 'react'
+import { Navbar, Nav } from 'react-bootstrap';
+import './navbar.css'
 
 function NavBarHome() {
   return (
-    <div>NavBarHome</div>
+    <div className='nav-container'>
+    <Navbar bg="dark" variant="dark" expand="lg">
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto flex-column ">
+                    <Nav.Link className='shadow'  href="#aboutus">ABOUT US</Nav.Link>
+                    <Nav.Link  href="#shows">SHOWS</Nav.Link>
+                    <Nav.Link  href="#menu">MENU</Nav.Link>
+                    <Nav.Link  href="#book">BOOK</Nav.Link>
+                    <Nav.Link  href="#contactus">CONTACT US</Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
+        </div>
   )
 }
 
