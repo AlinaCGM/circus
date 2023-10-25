@@ -5,10 +5,10 @@ import './navbar.css'
 function NavBarHome() {
   return (
     <div className='nav-container'>
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar  expand="lg">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto flex-column ">
+                <Nav className="mr-auto flex-column all-links">
                     <Nav.Link className='shadow'  href="#aboutus">ABOUT US</Nav.Link>
                     <Nav.Link  href="#shows">SHOWS</Nav.Link>
                     <Nav.Link  href="#menu">MENU</Nav.Link>

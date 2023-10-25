@@ -13,25 +13,29 @@
 .navbar-dark .navbar-nav .nav-link {
    
     color: white;
-
+    
     margin:  15px;
-    padding: 10px 15px;
+    
     border-radius: 5px;
     display: block;  
     transition: background-color 0.3s;
-    margin-bottom: 20px;
+ 
     align-items: center;
     display: flex;
     justify-content: center;
 }
 .nav-link {
+  margin-bottom: 20px;
     height: 70px;
     background-color: rgba(168, 163, 163, 0.3);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     transition: box-shadow 0.3s;
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
   
-  .nav-link:hover {
+  .nav-link:hover {  
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     text-shadow: 3px 3px 4px #CF9537;
   }
@@ -50,4 +54,9 @@
 .navbar-nav {
     flex-direction: column !important;
    
+}
+.all-links {
+  width:80%;
+  margin:auto;
+  padding-top: 20px;
 }
