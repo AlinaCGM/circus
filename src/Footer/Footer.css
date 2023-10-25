@@ -38,16 +38,3 @@ address {
 .footer-nav-list {
   list-style: none;
 }
-
-.center-content {
-  /* To center the logo img */
-  display: flex;
-  justify-content: center;
-}
-
-.mock-logo {
-  /* Just a placeholder for now, for the logo img */
-  width: 100px;
-  height: 100px;
-  background-color: #ca8f1d;
-}

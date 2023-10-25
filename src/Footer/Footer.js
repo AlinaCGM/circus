@@ -1,4 +1,5 @@
 import "./Footer.css";
+import logo from "./img/logo.png";
 
 export default function Footer() {
   return (
@@ -15,10 +16,8 @@ export default function Footer() {
           </p>
         </address>
       </div>
-      <div class="col center-content">
-        {/* Logo here */}
-        {/* <img src="" alt="Logo" /> */}
-        <div class="mock-logo">LOGO</div>
+      <div class="col">
+        <img class="logo" src={logo} alt="Logo" />
       </div>
       <div class="col">
         <p class="footer-heading">Navigation</p>
