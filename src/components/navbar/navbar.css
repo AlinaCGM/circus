@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat&display=swap');
+.nav-container {
+    position: absolute; /* This allows you to position the element anywhere within its parent */
+    top: 100px;
+    right: 150px;
+    z-index: 1000;
+    font-weight: 900;
+    background-color: rgba(99, 94, 94, 0.3);
+    width:400px;
+    height:auto;
+    
+}
+.navbar-dark .navbar-nav .nav-link {
+   
+    color: white;
+
+    margin:  15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: block;  
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.nav-link {
+    height: 70px;
+    background-color: rgba(168, 163, 163, 0.3);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s;
+  }
+  
+  .nav-link:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 3px 3px 4px #CF9537;
+  }
+  
+  .nav-link:active {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transform: translate(3px, 3px);
+  }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    
+}
+
+
+.navbar-nav {
+    flex-direction: column !important;
+   
+}

@@ -1,16 +1,27 @@
-import React from "react";
-import backgroundVideo from "../../assets/video.mp4";
-import "./hero.css";
+
+import React from 'react'
+ import logo from '../../assets/logo.png'
+import './hero.css'
+import NavBarHome from '../navbar/NavBarHome'
 
 function Hero() {
   return (
-    <div className="container-hero">
-      <h1>Hero</h1>
-      <video class="video" controls autoPlay loop muted>
-        <source src={backgroundVideo} type="video/webm" />
-      </video>
+    <div className='container-hero'>
+   <div className=''>
+   <h1 className='hero-title'>Star Five
+ </h1>
+<img  width='220px' height="auto" src={logo} alt="logo"/>
+
+ </div>
+ <div className='navbar'>
+ <NavBarHome/>
+ </div>
+
+
+
     </div>
   );
 }
 
-export default Hero;
+
+export default Hero 
