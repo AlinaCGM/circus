@@ -1,0 +1,22 @@
+.restaurant-section {
+  border: 10px solid #343438;
+  margin: 0 4rem;
+}
+
+.restaurant-section h2 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+button {
+  font-size: 1.2rem;
+  background-color: #e71b36;
+  padding: 0.8rem 3rem;
+}
