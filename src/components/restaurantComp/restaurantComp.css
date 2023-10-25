@@ -1,6 +1,7 @@
 .restaurant-section {
   border: 10px solid #343438;
   margin: 0 4rem;
+  padding: 2rem;
 }
 
 .restaurant-section h2 {
@@ -15,7 +16,7 @@
   margin-bottom: 2rem;
 }
 
-button {
+.restaurant-section button {
   font-size: 1.2rem;
   background-color: #e71b36;
   padding: 0.8rem 3rem;
