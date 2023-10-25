@@ -1,0 +1,79 @@
+/* .container-hero {
+   
+    width:90%;
+    height:50vh;
+    background-image: url(../../assets/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+    padding-top: 5rem;
+  
+    color:white;
+    margin: auto;
+} */
+.container-hero {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    padding-top: 5rem;
+    color: white;
+    margin: auto;
+    position: relative; 
+  }
+  
+  .container-hero video {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+   
+  }
+
+.hero-text-box{
+    text-align: left;
+    width:80%;
+    margin-top: 5rem;
+    margin-left:auto;
+    margin-right: 5px;
+    padding: 1rem;
+    background-color: rgba(228, 221, 222, 0.3);
+    
+}
+.hero-title {
+    color: rgb(227, 209, 16);
+}
+.hero-text-box2 {
+    text-align: left;
+    width:80%;
+    margin-top: 5rem;
+    margin-right:auto;
+    margin-left: 5px;
+    padding: 1rem;
+    background-color: rgba(87, 87, 87, 0.3);
+}
+.hero-text {
+   font-size: 14px; 
+   letter-spacing: 0.5px;
+   line-height: 1.5rem;
+}
+
+@media (min-width:768px) {
+    .hero-text-box {
+        width:50%;
+        margin-top: 5rem;
+        margin-left:auto;
+        padding: 3rem;
+        
+    }
+    .hero-text-box2 {
+        width:50%;
+        margin-top: 5rem;
+        margin-right:auto;
+        padding: 3rem;
+       
+    }
+}
