@@ -5,15 +5,45 @@ import ellipse2 from "../../assets/ellipse2.png";
 import ellipse3 from "../../assets/ellipse3.png";
 import ellipse4 from "../../assets/ellipse4.png";
 
+function Card({ src, alt, title, description }) {
+  return (
+    <article id="card">
+      <img src={src} alt={alt}></img>
+      <h3>{title}</h3>
+      <p>{description}</p>
+    </article>
+  );
+}
+
 function RestaurantComp() {
   return (
-    <section class="restaurant-section">
-      <h2>RESTAURANT</h2>
+    <section className="restaurant-section">
+      <h2>What you can expect from the restaurant</h2>
       <div class="img-wrapper">
-        <img src={ellipse1} alt="Plate with beff, rosemary and potato"></img>
-        <img src={ellipse2} alt="Pokebowl"></img>
-        <img src={ellipse3} alt="Cake"></img>
-        <img src={ellipse4} alt="Cocktail"></img>
+        <Card
+          src={ellipse1}
+          alt="Plate with beff, rosemary and potato"
+          title="À la carte"
+          description="Enjoy our à la carte with various dishes ranging from veggie to not veggie."
+        />
+        <Card
+          src={ellipse2}
+          alt="Pokebowl"
+          title="Raw food"
+          description="Choose between a variety of our raw 'cooked' dishes."
+        />
+        <Card
+          src={ellipse3}
+          alt="Cake"
+          title="Dessert"
+          description="You must try out some of our delicious cakes."
+        />
+        <Card
+          src={ellipse4}
+          alt="Cocktail"
+          title="Cocktails"
+          description="Sit down in our bar and enjoy a well-made cocktail or mocktail."
+        />
       </div>
       <Button />
     </section>
