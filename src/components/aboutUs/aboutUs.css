@@ -1,21 +1,17 @@
 .container-about {
-  width: 80%;
-  margin-block: 2rem;
+  width: 90%;
   margin: auto;
-
-  /* background-color: #343438;
-  border: 1px solid red; */
+  margin-top: 2rem;
 }
 .title-about {
   color: #fff;
   font-family: "Kalam", cursive;
   font-size: 2rem;
-  margin-bottom: 2rem;
+
   text-align: center;
 }
 
 .img-fluid {
-  border: 1px solid red;
   width: 100%;
 }
 
@@ -25,4 +21,5 @@
   text-align: start;
   letter-spacing: 1.2px;
   color: #fff;
+  background-color: rgb(52, 52, 56, 0.5);
 }
