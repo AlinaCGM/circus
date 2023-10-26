@@ -12,10 +12,9 @@
   }
   
   p {
-    font-size: 16px;
-    line-height: 20px;
-    background-color: 343438;
-    color: white;    
+    color: #fff;
+    background-color: #343438;
+    padding: 2rem;   
   }
   
   

@@ -6,6 +6,7 @@ import Restaurant from "./pages/restaurant/Restaurant";
 import Footer from "./components/footer/Footer";
 import NavBarHome from "./components/navbar/NavBarHome";
 
+
 function App() {
   return (
     <div className="App">
@@ -15,7 +16,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/restaurant" element={<Restaurant />} />
         </Routes>
-        <Footer />
       </Router>
     </div>
   );

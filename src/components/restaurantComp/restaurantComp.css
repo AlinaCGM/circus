@@ -1,10 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
 
 .restaurant-section {
-  width: 90%;
-  border: 10px solid #343438;
-  margin: auto;
-  padding: 2rem;
+  margin: 02rem 4rem;
 }
 .content-menu {
   text-align: center;
@@ -15,11 +12,30 @@
 .restaurant-section h2 {
   color: #fff;
   font-family: "Kalam", cursive;
-  padding-block: 1rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
-.restaurant-section button {
-  font-size: 1.2rem;
-  background-color: #e71b36;
-  padding: 0.8rem 3rem;
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+#card {
+  background-color: #343438;
+  padding: 1rem 2rem;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+#card h3 {
+  color: #ca8f1d;
+  margin-bottom: 1rem;
+
+}
+
+#card img {
+  margin-bottom: 1rem;
 }

@@ -5,68 +5,48 @@ import ellipse2 from "../../assets/ellipse2.png";
 import ellipse3 from "../../assets/ellipse3.png";
 import ellipse4 from "../../assets/ellipse4.png";
 
-function RestaurantComp() {
+function Card({ src, alt, title, description }) {
   return (
-    <section class="restaurant-section">
-      <h2 className="restaurant-section-title">RESTAURANT</h2>
-      <div className="img-wrapper row ">
-        <div className="col-sm-6 col-lg-3 mb-5 ">
-          <img
-            width="200px"
-            src={ellipse1}
-            alt="Plate with biff, rosemary and potato"
-          ></img>
-          <p className=" content-menu  p-4 mt-5">
-            Our meat dishes are a culinary masterpiece, meticulously prepared
-            with the finest ingredients to ensure an explosion of flavors in
-            every bite. Discover a world of succulent meats that will leave your
-            taste buds craving for more. At our restaurant, we take pride in
-            serving the juiciest and most delectable meat dishes that .
-          </p>
-        </div>
-        <div className="col-sm-6 col-lg-3 mb-5 ">
-          <img width="200px" src={ellipse2} alt="Pokebowl"></img>
-          <p className=" content-menu  p-4 mt-5">
-            For the vegetarian enthusiasts, our veggie dishes are a celebration
-            of fresh produce, harmoniously combined with unique seasonings for a
-            delightful dining experience. Explore a diverse array of vegetarian
-            options that are as vibrant in taste as they are in presentation.
-            Whether you're a vegetarian or simply looking for a meatless
-            delight.
-          </p>
-        </div>
-
-        <div className="col-sm-6 col-lg-3  mb-5">
-          <img width="200px" src={ellipse3} alt="Cake"></img>
-          <p className=" content-menu  p-4 mt-5">
-            Save room for our delectable desserts that are the perfect
-            conclusion to your meal, offering an unforgettable sweet experience.
-            Our desserts are a symphony of flavors and textures, ranging from
-            classic favorites to innovative creations. Indulge in a world of
-            heavenly desserts that will leave you with a sweet memory of your
-            dining experience.
-          </p>
-        </div>
-
-        <div className="col-sm-6 col-lg-3  mb-5">
-          <img width="200px" src={ellipse4} alt="Cocktail"></img>
-          <p className=" content-menu  p-4 mt-5">
-            Wash down your meal with a refreshing selection of drinks, from
-            signature cocktails to classic favorites that will quench your
-            thirst. Our bar offers an extensive range of beverages to complement
-            your dining experience, featuring a variety of options for all
-            preferences. Explore our diverse drink menu, where each sip is a
-            delightful journey in itself.
-          </p>
-        </div>
-      </div>
-      <Button />
-    </section>
+    <article id="card">
+      <img src={src} alt={alt}></img>
+      <h3>{title}</h3>
+      <p>{description}</p>
+    </article>
   );
 }
 
-function Button() {
-  return <button type="button">MORE</button>;
+function RestaurantComp() {
+  return (
+    <section className="restaurant-section">
+      <h2>What you'll find on our menu</h2>
+      <div class="card-wrapper">
+        <Card
+          src={ellipse1}
+          alt="Plate with beff, rosemary and potato"
+          title="À la carte"
+          description="Enjoy our à la carte with various dishes ranging from veggie to not veggie."
+        />
+        <Card
+          src={ellipse2}
+          alt="Pokebowl"
+          title="Raw food"
+          description="Choose between a variety of our raw 'cooked' dishes."
+        />
+        <Card
+          src={ellipse3}
+          alt="Cake"
+          title="Dessert"
+          description="You must try out some of our delicious cakes."
+        />
+        <Card
+          src={ellipse4}
+          alt="Cocktail"
+          title="Cocktails"
+          description="Sit down in our bar and enjoy a well-made cocktail or mocktail."
+        />
+      </div>
+    </section>
+  );
 }
 
 export default RestaurantComp;
