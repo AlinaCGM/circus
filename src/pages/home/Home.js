@@ -7,7 +7,6 @@ import AboutUs from "../../components/aboutUs/AboutUs";
 import Carousel from "../../components/carousel/Carousel";
 import Footer from "../../components/footer/Footer";
 
-
 function Home() {
   return (
     <div className="home-container">
