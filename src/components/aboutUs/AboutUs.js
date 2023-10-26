@@ -17,10 +17,10 @@ function AboutUs() {
             <div className="row">
               <div className="col-lg-6" style={{ backgroundColor: "#343438" }}>
                 <p>
-                  Nestled in the heart of the city, our establishment offers an
+                  Located in the heart of the city, our establishment offers an
                   enchanting dining experience that transcends the ordinary.
-                  With a vibrant and whimsical ambiance, Team 5 Circus
-                  Restaurant invites guests to step into a world of wonder.{" "}
+                  With a vibrant and whimsical ambiance, Star 5 Restaurant
+                  invites guests to step into a world of wonder.{" "}
                   <br />
                   <br />
                   Our menu is a carefully curated blend of global cuisines,
@@ -28,22 +28,21 @@ function AboutUs() {
                   dish is a masterpiece that tantalizes the taste buds. <br />
                   <br /> But the magic doesn't stop there; we feature live
                   performances and themed events, making every visit a
-                  celebration. At Team 5 Circus Restaurant, we create
-                  unforgettable memories one plate and one act at a time. Join
-                  us for a truly unique and unforgettable dining adventure.
+                  celebration. 
                   <br /><br />Whether you're here for a romantic dinner or a special event,
-                  every visit to Team 5 Circus Restaurant is a celebration.
+                  every visit to Star 5 Restaurant is a celebration.
                   We're here to create unforgettable memories, one plate and one
                   act at a time. Join us for a truly unique and unforgettable
                   dining adventure that will stay with you long after you leave
                   our doors.
                 </p>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6" >
                 <img
                   src={homegirlsImage}
                   alt="Homegirls"
                   className="img-fluid"
+                  style={{ height: "540px", width: "600px"}}
                 />
               </div>
             </div>
