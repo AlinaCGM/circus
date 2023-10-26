@@ -1,24 +1,28 @@
+.container-about {
+  width: 80%;
+  margin-block: 2rem;
+  margin: auto;
 
-  header h2 {
-    font-size: 25px;
-    color: #fff;
-    text-align: center;
-  }
-  
-  main {
-    text-align: left;
-    margin-top: 20px;
-    padding: 20px;
-  }
-  
-  p {
-    color: #fff;
-    background-color: #343438;
-    padding: 2rem;   
-  }
-  
-  
+  /* background-color: #343438;
+  border: 1px solid red; */
+}
+.title-about {
+  color: #fff;
+  font-family: "Kalam", cursive;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
 
-  
+.img-fluid {
+  border: 1px solid red;
+  width: 100%;
+}
 
-  
+.content-about {
+  padding-block: 20px;
+  line-height: 1.6rem;
+  text-align: start;
+  letter-spacing: 1.2px;
+  color: #fff;
+}
