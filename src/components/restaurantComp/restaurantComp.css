@@ -1,15 +1,21 @@
 .restaurant-section {
+  width: 90%;
   border: 10px solid #343438;
-  margin: 0 4rem;
+  margin: auto;
   padding: 2rem;
 }
-
+.content-menu {
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 2rem;
+  background-color: rgb(52, 52, 56, 0.5);
+}
 .restaurant-section h2 {
   color: #fff;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
-
+/*
 .img-wrapper {
   display: flex;
   justify-content: space-around;
@@ -20,4 +26,4 @@
   font-size: 1.2rem;
   background-color: #e71b36;
   padding: 0.8rem 3rem;
-}
+} */
