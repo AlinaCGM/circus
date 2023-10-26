@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./pages/home/Home";
 import Restaurant from "./pages/restaurant/Restaurant";
-import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/restaurant" element={<Restaurant />} />
         </Routes>
-        <Footer />
       </Router>
     </div>
   );
