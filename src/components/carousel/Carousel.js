@@ -8,7 +8,7 @@ import clown from "../../assets/face-paint-clown.jpg";
 function Carousel() {
   return (
     <section class="section-carousel">
-      <CarouselTemplate fade>
+      <CarouselTemplate fade controls>
         <CarouselTemplate.Item>
           <img class="slide-img" src={acrobats} alt="Acrobats"></img>
           <CarouselTemplate.Caption>
