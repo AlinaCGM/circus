@@ -1,5 +1,7 @@
 import "./footer.css";
 import logo from "../../assets/logo.png";
+import at from "../../assets/icon-at.svg";
+import phone from "../../assets/icon-phone.svg";
 
 export default function Footer() {
   return (
@@ -11,10 +13,18 @@ export default function Footer() {
             Djurgårdsslätten 43-45, 115 21 Stockholm
           </p>
           <p className="reset-padding">
-            <a href="tel:#">+468 587 987 00</a>
+            <a href="tel:#">
+              {" "}
+              <img src={phone} alt="Phone icon" className="contact-icon" />
+              +468 587 987 00
+            </a>
           </p>
           <p className="reset-padding">
-            <a href="mailto:#">info@cirkus.se</a>
+            <a href="mailto:#">
+              {" "}
+              <img src={at} alt="At icon" className="contact-icon" />
+              info@cirkus.se
+            </a>
           </p>
         </address>
       </div>

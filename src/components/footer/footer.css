@@ -34,6 +34,10 @@ address {
   font-style: normal;
 }
 
+.contact-icon {
+  margin-right: 0.5rem;
+}
+
 .footer-nav-list {
   list-style: none;
   padding: 0;
