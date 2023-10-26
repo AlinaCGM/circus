@@ -6,7 +6,7 @@ import Footer from "../../components/footer/Footer";
 
 function ContactUs() {
   return (
-    <div className="jumbotron jumbotron-fluid">
+    <div >
       <NavBarHome /> 
       <ContactUs/>
       <Footer />
