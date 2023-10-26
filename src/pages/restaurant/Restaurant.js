@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import NavBarHome from "../../components/navbar/NavBarHome";
 
 function Restaurant() {
   return (
-    <div>Restaurant</div>
-  )
+    <div>
+      <NavBarHome />
+      <h2>Restaurant</h2>
+    </div>
+  );
 }
 
-export default Restaurant
+export default Restaurant;
