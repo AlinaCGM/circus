@@ -17,8 +17,6 @@ footer {
 .footer-heading {
   font-size: 1.2rem;
   font-weight: 600;
-  margin-bottom: 1rem;
-  text-align: center;
 }
 
 a:link,
@@ -38,5 +36,10 @@ address {
 
 .footer-nav-list {
   list-style: none;
+  padding: 0;
+}
+
+/* Added because p had padding: 2rem set somewhere else */
+.reset-padding {
   padding: 0;
 }
