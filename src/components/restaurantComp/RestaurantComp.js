@@ -19,7 +19,7 @@ function RestaurantComp() {
   return (
     <section className="restaurant-section">
       <h2>What you'll find on our menu</h2>
-      <div class="card-wrapper">
+      <div className="row-card-wrapper">
         <Card
           src={ellipse1}
           alt="Plate with beff, rosemary and potato"
