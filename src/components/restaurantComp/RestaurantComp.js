@@ -18,8 +18,8 @@ function Card({ src, alt, title, description }) {
 function RestaurantComp() {
   return (
     <section className="restaurant-section">
-      <h2>What you can expect from the restaurant</h2>
-      <div class="img-wrapper">
+      <h2>What you'll find on our menu</h2>
+      <div class="card-wrapper">
         <Card
           src={ellipse1}
           alt="Plate with beff, rosemary and potato"
@@ -45,13 +45,8 @@ function RestaurantComp() {
           description="Sit down in our bar and enjoy a well-made cocktail or mocktail."
         />
       </div>
-      <Button />
     </section>
   );
-}
-
-function Button() {
-  return <button type="button">MORE</button>;
 }
 
 export default RestaurantComp;
