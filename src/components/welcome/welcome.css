@@ -1,10 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
 .welcome-section {
+  width: 90%;
+  margin: auto;
+  margin-block: 2rem;
   background-color: #191e22;
-  padding: 4rem;
 }
 
 .welcome-section article {
   color: #fff;
   background-color: #343438;
-  padding: 2rem;
+  padding: 1rem;
+}
+.content-welcome {
+  line-height: 1.6rem;
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+.welcome-title {
+  font-family: "Kalam", cursive;
+  padding-block: 1rem;
 }

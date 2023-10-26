@@ -3,9 +3,9 @@ import logo from "../../assets/logo.png";
 
 export default function Footer() {
   return (
-    <footer>
-      <div class="col">
-        <p class="footer-heading">Visit Us</p>
+    <footer className="row">
+      <div className="col">
+        <p className="footer-heading">Visit Us</p>
         <address>
           <p>Djurgårdsslätten 43-45, 115 21 Stockholm</p>
           <p>
@@ -16,12 +16,12 @@ export default function Footer() {
           </p>
         </address>
       </div>
-      <div class="col">
-        <img class="logo" src={logo} alt="Logo" />
+      <div className="col">
+        <img className="logo" src={logo} alt="Logo" />
       </div>
-      <div class="col">
-        <p class="footer-heading">Navigation</p>
-        <ul class="footer-nav-list">
+      <div className="col">
+        <p className="footer-heading">Navigation</p>
+        <ul className="footer-nav-list">
           <li>
             <a href="">About Us</a>
           </li>

@@ -1,9 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+
 .restaurant-section {
   margin: 02rem 4rem;
 }
-
+.content-menu {
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 2rem;
+  background-color: rgb(52, 52, 56, 0.5);
+}
 .restaurant-section h2 {
   color: #fff;
+  font-family: "Kalam", cursive;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
@@ -25,6 +33,7 @@
 #card h3 {
   color: #ca8f1d;
   margin-bottom: 1rem;
+
 }
 
 #card img {
