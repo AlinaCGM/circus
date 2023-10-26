@@ -1,0 +1,13 @@
+h3{
+    color:white;
+}
+header h2{
+    color: rgb(167, 32, 32);
+    padding-top: 70px;
+    padding-left: 120px;
+}
+p {
+    color: #fff;
+    background-color: #343438;
+    padding: 2rem;   
+  }
