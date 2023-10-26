@@ -1,7 +1,5 @@
 .restaurant-section {
-  border: 10px solid #343438;
-  margin: 0 4rem;
-  padding: 2rem;
+  margin: 02rem 4rem;
 }
 
 .restaurant-section h2 {
@@ -10,14 +8,25 @@
   margin-bottom: 2rem;
 }
 
-.img-wrapper {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 2rem;
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
 }
 
-.restaurant-section button {
-  font-size: 1.2rem;
-  background-color: #e71b36;
-  padding: 0.8rem 3rem;
+#card {
+  background-color: #343438;
+  padding: 1rem 2rem;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+#card h3 {
+  color: #ca8f1d;
+  margin-bottom: 1rem;
+}
+
+#card img {
+  margin-bottom: 1rem;
 }
