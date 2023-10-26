@@ -16,7 +16,7 @@
   margin-bottom: 2rem;
 }
 
-.card-wrapper {
+.row-card-wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
