@@ -7,10 +7,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function AboutUs() {
   return (
     <div className="container-about ">
-      <h2 className="title-about pt-5">What you will find on the stage</h2>
+      <h2 className="title-about">What you will find on the stage</h2>
 
       <div className="row ">
-        <div className=" col-sm-10 col-lg-6 mb-3 mx-sm-auto ">
+        <div className=" col-sm-10 col-lg-6 mb-3 mx-sm-auto content-about-border">
           <p className="content-about px-4">
             At our circus-themed restaurant, there's a special stage where
             amazing performers do incredible things while you enjoy your meal.
@@ -23,24 +23,10 @@ function AboutUs() {
             having dinner and a show all in one place!
           </p>
         </div>
-        <div className=" col-sm-10 col-lg-6 mb-3 mx-sm-auto ">
-          <img
-            width="100%"
-            src={homegirlsImage}
-            alt="Homegirls"
-            className="img-fluid"
-          />
-        </div>
+        <div className="image-bg1 col-sm-10 col-lg-6 mb-3 mx-sm-auto "></div>
 
-        <div className="  col-sm-10  col-lg-6 mb-3 mx-sm-auto ">
-          <img
-            width="100%"
-            src={homegirlsImage1}
-            alt="Homegirls"
-            className="img-fluid"
-          />
-        </div>
-        <div className=" col-sm-10  col-lg-6 mb-3 mx-sm-auto ">
+        <div className=" image-bg  col-sm-10  col-lg-6 mb-3 mx-sm-auto "></div>
+        <div className=" col-sm-10  col-lg-6 mb-3 mx-sm-auto content-about-border">
           <p className="content-about px-4">
             Step right into our enchanting circus-themed restaurant, where your
             dining experience is transformed into a captivating spectacle. As

@@ -15,7 +15,7 @@ function ContactUs() {
   return (
     <div className="pb-5">
       <Container>
-        <header className="text-center pt-5">
+        <header className="text-center pt-4">
           <h2>Contact Us</h2>
         </header>
         <Row style={{ backgroundColor: "#343438" }}>
@@ -70,7 +70,7 @@ function ContactUs() {
               />
             </div>
             <div>
-              <p>
+              <p className="content-contactUs">
                 Address: 123 Centralgatan, Stockholm, Sweden <br />
                 Email: contact@starfive.se
                 <br />

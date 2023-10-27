@@ -1,13 +1,11 @@
 .container-about {
   width: 90%;
   margin: auto;
-  margin-top: 2rem;
 }
 .title-about {
   color: #fff;
   font-family: "Kalam", cursive;
   font-size: 2rem;
-
   text-align: center;
 }
 
@@ -21,5 +19,22 @@
   text-align: start;
   letter-spacing: 1.2px;
   color: #fff;
+  background-color: transparent;
+}
+.content-about-border {
   background-color: rgb(52, 52, 56, 0.5);
+}
+.image-bg {
+  height: 400px;
+  background-image: url(../../assets/1.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+.image-bg1 {
+  height: 400px;
+  background-image: url(../../assets/2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

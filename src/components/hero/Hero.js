@@ -24,7 +24,7 @@ function Hero() {
         <img width="220px" height="auto" src={logo} alt="logo" />
         <div className="cta-div mt-2">
           <div className=" btn-hero">
-            <a href="#" className="cta-button">
+            <a href="#shows" className="cta-button">
               Discover More
             </a>
           </div>

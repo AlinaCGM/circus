@@ -31,14 +31,7 @@ function NavBarHome() {
             >
               About Us
             </NavLink>
-            <NavLink
-              eventKey="3"
-              as={Link}
-              to="/home#carousel"
-              style={{ color: "white" }}
-            >
-              Shows
-            </NavLink>
+
             <NavLink
               eventKey="4"
               as={Link}
