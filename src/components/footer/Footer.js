@@ -6,7 +6,7 @@ import phone from "../../assets/icon-phone.svg";
 export default function Footer() {
   return (
     <footer className="row">
-      <div className="col">
+      <div className="col-sm-10 col-lg-4 mx-sm-auto">
         <p className="footer-heading reset-padding">Visit Us</p>
         <address>
           <p className="reset-padding">
@@ -28,10 +28,10 @@ export default function Footer() {
           </p>
         </address>
       </div>
-      <div className="col">
+      <div className="col-sm-10 col-lg-4 mx-sm-auto">
         <img className="logo" src={logo} alt="Logo" />
       </div>
-      <div className="col">
+      <div className="col-sm-10 col-lg-4 mx-sm-auto">
         <p className="footer-heading reset-padding">Navigation</p>
         <ul className="footer-nav-list">
           <li>
