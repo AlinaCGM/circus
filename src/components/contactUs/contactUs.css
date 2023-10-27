@@ -1,13 +1,20 @@
-h3{
-    color:white;
+h3 {
+  color: white;
+  font-size: 1rem;
 }
-header h2{
-    color: rgb(167, 32, 32);
-    padding-top: 70px;
-    padding-left: 120px;
+header h2 {
+  color: #fff;
+  font-family: "Kalam", cursive;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 70px;
+ 
 }
 p {
-    color: #fff;
-    background-color: #343438;
-    padding: 2rem;   
-  }
+  color: #fff;
+  background-color: #343438;
+  padding: 2rem;
+}
+.vertical-separator {
+  border-right: 3px solid #f0e9e9;
+}
