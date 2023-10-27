@@ -20,21 +20,31 @@
 
 #card {
   background-color: #343438;
-  padding: 1rem;
+  padding: 0 3rem;
+  padding-top: 2rem;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
+  transition: transform 0.5s;
+}
+
+#card:hover {
+  transform: scale(1.03);
 }
 
 #card h3 {
   color: #ca8f1d;
-  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
 }
 
-#card img {
-  margin-bottom: 1rem;
+#card p {
+  padding: 0; /* To reset */
+  margin: 0 1.5rem;
 }
+
 @media (max-width: 768px) {
   #card img {
     margin-bottom: 1rem;
