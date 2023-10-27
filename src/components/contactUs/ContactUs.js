@@ -13,17 +13,16 @@ import {
 
 function ContactUs() {
   return (
-    <div>
+    <div className="pb-5">
       <Container>
         <header className="text-center pt-5">
           <h2>Contact Us</h2>
         </header>
         <Row style={{ backgroundColor: "#343438" }}>
-          <Col lg={6} xs={12} className="vertical-separator" >
-            <h3>Contact Form</h3>
+          <Col lg={6} xs={12} className="vertical-separator">
             <Form>
               <Form.Group className="mb-3" controlId="formBasicName">
-                <Form.Label style={{ color: 'white' }}>Name</Form.Label>
+                <Form.Label style={{ color: "white" }}>Name</Form.Label>
                 <Form.Control
                   type="text"
                   placeholder="Enter name"
@@ -31,7 +30,9 @@ function ContactUs() {
                 />
               </Form.Group>
               <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Label style={{ color: 'white' }}>Email address</Form.Label>
+                <Form.Label style={{ color: "white" }}>
+                  Email address
+                </Form.Label>
                 <Form.Control
                   type="email"
                   placeholder="Enter email"
@@ -39,7 +40,7 @@ function ContactUs() {
                 />
               </Form.Group>
               <Form.Group className="mb-3" controlId="formBasicSubject">
-                <Form.Label style={{ color: 'white' }}>Subject</Form.Label>
+                <Form.Label style={{ color: "white" }}>Subject</Form.Label>
                 <Form.Control
                   type="text"
                   placeholder="Subject"
@@ -57,25 +58,22 @@ function ContactUs() {
                 <Button variant="primary">Submit</Button>
               </ButtonGroup>
             </Form>
-            <div className="vertical-separator"/>
-           
-           
+            <div className="vertical-separator" />
           </Col>
-         
-          
-            
-          <Col lg={5} xs={12} >
-            <div className="pt-5" >
+
+          <Col lg={5} xs={12}>
+            <div className="pt-5">
               <img
                 src={MapPlaceholder}
                 alt="Map Placeholder"
-                style={{ width: "100%", height: "300px", paddingTop:"22px"}}
+                style={{ width: "100%", height: "300px", paddingTop: "22px" }}
               />
             </div>
             <div>
               <p>
-                Address: 123 Centralgatan, Stockholm, Sweden <br/>
-                Email: contact@starfive.se<br/>
+                Address: 123 Centralgatan, Stockholm, Sweden <br />
+                Email: contact@starfive.se
+                <br />
                 Phone: +46 (123) 456-7890
               </p>
             </div>

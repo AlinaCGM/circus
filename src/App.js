@@ -6,8 +6,8 @@ import Restaurant from "./pages/restaurant/Restaurant";
 import BookingPage from "./pages/booking/BookingPage";
 import Footer from "./components/footer/Footer";
 import NavBarHome from "./components/navbar/NavBarHome";
-import ContactUs from "./components/contactUs/ContactUs";
 import AboutUs from "./components/aboutUs/AboutUs";
+import ContactPage from "./pages/contactus/ContactUs";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/restaurant" element={<Restaurant />} />
-          <Route path="/contact" element={<ContactUs />} />
+          <Route path="/contact" element={<ContactPage />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/book" element={<BookingPage />} />
         </Routes>

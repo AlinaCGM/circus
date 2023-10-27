@@ -1,8 +1,19 @@
+.container-carousel {
+  width: 90%;
+  margin: auto;
+  border: 2px solid #343438;
+  margin-block: 2rem;
+}
 .reset {
   background-color: rgba(255, 255, 255, 0);
   padding: 0;
 }
-
+.container-carousel h2 {
+  color: #fff;
+  font-family: "Kalam", cursive;
+  font-size: 2rem;
+  margin-block: 2rem;
+}
 .carousel {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;

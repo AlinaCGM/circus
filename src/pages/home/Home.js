@@ -11,9 +11,9 @@ function Home() {
     <div className="home-container">
       <Hero />
       <Welcome />
+      <Carousel />
       <RestaurantComp />
       <AboutUsHome />
-      <Carousel />
     </div>
   );
 }
