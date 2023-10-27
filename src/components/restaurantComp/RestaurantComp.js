@@ -7,11 +7,13 @@ import ellipse4 from "../../assets/ellipse4.png";
 
 function Card({ src, alt, title, description }) {
   return (
-    <article id="card">
-      <img src={src} alt={alt}></img>
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </article>
+    <a href="">
+      <article id="card">
+        <img src={src} alt={alt}></img>
+        <h3>{title}</h3>
+        <p>{description}</p>
+      </article>
+    </a>
   );
 }
 
