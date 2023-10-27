@@ -26,7 +26,7 @@ function RestaurantComp() {
               src={ellipse1}
               alt="Plate with beff, rosemary and potato"
               title="À la carte"
-              description="Enjoy our à la carte with various dishes ranging from veggie to not veggie."
+              description="Enjoy our à la carte with various dishes ."
             />
           </div>
           <div className="col-sm-6 col-lg-3">
