@@ -9,7 +9,7 @@ footer {
   background-color: #343438;
   line-height: 2;
   padding: 2rem 0;
-
+  font-family: "Montserrat", sans-serif;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -48,4 +48,11 @@ address {
 /* Added because p had padding: 2rem set somewhere else */
 .reset-padding {
   padding: 0;
+}
+form {
+  width: 300px;
+  margin: auto;
+}
+.icon {
+  font-size: 30px;
 }
