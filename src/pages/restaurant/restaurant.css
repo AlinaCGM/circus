@@ -1,0 +1,7 @@
+.rest-container {
+  background-image: url(../../assets/rest-bg1.png);
+  background-position: center;
+  background-size: cover;
+  background-color: #080808;
+  background-attachment: fixed;
+}

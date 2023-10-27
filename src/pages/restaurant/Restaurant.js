@@ -1,11 +1,14 @@
 import React from "react";
 import NavBarHome from "../../components/navbar/NavBarHome";
+import RestaurantPage from "../../components/restaurantComp/RestaurantPage";
+import "./restaurant.css";
 
 function Restaurant() {
   return (
-    <div>
+    <div className="rest-container">
       <NavBarHome />
-      <h2>Restaurant</h2>
+
+      <RestaurantPage />
     </div>
   );
 }

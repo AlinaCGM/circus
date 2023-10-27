@@ -10,6 +10,7 @@
   line-height: 2rem;
   background-color: rgb(52, 52, 56, 0.5);
 }
+.title-menu,
 .restaurant-section h2 {
   color: #fff;
   font-family: "Kalam", cursive;
@@ -38,4 +39,81 @@
 
 #card img {
   margin-bottom: 1rem;
+}
+
+/* CSS FROM RESTAURANT-PAGE COMPONENT */
+.restaurant-page-container {
+  width: 90%;
+  margin: auto;
+}
+.image-restaurantPage {
+  height: 100%;
+}
+.col-item {
+  height: 500px;
+}
+ul {
+  width: 100%;
+  list-style-type: none;
+}
+li {
+  color: white;
+  border-bottom: 1px solid rgb(66, 64, 64);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  li {
+    margin-bottom: 10px;
+    font-size: smaller;
+  }
+  .col-item {
+    height: 100px;
+    margin-bottom: 30px;
+    font-size: small;
+  }
+  .btn-menu {
+    width: 30px;
+    height: 20px;
+    font-size: 8px;
+    border: 1px solid grey;
+    padding: 2px;
+  }
+}
+@media (min-width: 769px) {
+  li {
+    margin-bottom: 10px;
+    font-size: medium;
+  }
+  .col-item {
+    height: 250px;
+    margin-bottom: 30px;
+    font-size: large;
+  }
+  .btn-menu {
+    width: 50px;
+    height: 20px;
+    font-size: 12px;
+    border: 1px solid grey;
+    padding: 2px;
+  }
+}
+@media (min-width: 1024px) {
+  li {
+    margin-bottom: 20px;
+    font-size: large;
+  }
+  .col-item {
+    height: 300px;
+    margin-bottom: 40px;
+    font-size: large;
+  }
+  .btn-menu {
+    width: 70px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid grey;
+    padding: 2px;
+  }
 }

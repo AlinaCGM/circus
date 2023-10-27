@@ -15,7 +15,6 @@ function Home() {
       <RestaurantComp />
       <AboutUs />
       <Carousel />
-      <Footer />
     </div>
   );
 }
