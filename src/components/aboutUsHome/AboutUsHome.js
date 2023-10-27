@@ -16,12 +16,11 @@ function AboutUs() {
             amazing performers do incredible things while you enjoy your meal.
             They make your dinner a real show! Acrobats do flips, people bend in
             super flexible ways, and jugglers do tricks.
-            <br/>
-             The leader of the show
-            talks and makes everyone laugh, and funny performers join in too. So,
-            while you eat, you can also watch a fantastic performance that makes
-            your meal even more fun. It's like having dinner and a show all in
-            one place!
+            <br />
+            The leader of the show talks and makes everyone laugh, and funny
+            performers join in too. So, while you eat, you can also watch a
+            fantastic performance that makes your meal even more fun. It's like
+            having dinner and a show all in one place!
           </p>
         </div>
         <div className=" col-sm-10 col-lg-6 mb-3 mx-sm-auto ">
@@ -30,7 +29,6 @@ function AboutUs() {
             src={homegirlsImage}
             alt="Homegirls"
             className="img-fluid"
-            style={{ width: "100%", height: "300px", }}
           />
         </div>
 
