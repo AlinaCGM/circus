@@ -18,18 +18,13 @@
   margin-bottom: 2rem;
 }
 
-.row-card-wrapper {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
-}
-
 #card {
   background-color: #343438;
-  padding: 1rem 2rem;
+  padding: 1rem;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  margin-bottom: 20px;
 }
 
 #card h3 {
@@ -40,8 +35,36 @@
 #card img {
   margin-bottom: 1rem;
 }
+@media (max-width: 768px) {
+  #card img {
+    margin-bottom: 1rem;
+    width: 180px;
+  }
+  #card {
+    height: 430px;
+  }
+}
+@media (min-width: 769px) {
+  #card img {
+    margin-bottom: 1rem;
+    width: 200px;
+  }
+  #card {
+    height: 420px;
+  }
+}
+@media (min-width: 992px) {
+  #card img {
+    margin-bottom: 1rem;
+    width: 150px;
+  }
+  #card {
+    height: 420px;
+    padding: 10px;
+  }
+}
 
-/* CSS FROM RESTAURANT-PAGE COMPONENT */
+/* CSS FROM RESTAURANT-PAGE COMPONENT--------------------------------------------------------------------------------------------------------------- */
 .restaurant-page-container {
   width: 90%;
   margin: auto;

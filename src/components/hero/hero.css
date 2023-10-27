@@ -32,21 +32,30 @@
   margin-left: auto;
   margin-right: 10%;
 }
-.cta-button {
+.cta-div {
   font-family: "Poppins", sans-serif;
   padding: 0.8rem 1.6rem;
-  background-color: #e71b36;
+
   color: white;
   border: none;
   border-radius: 5px;
   font-size: 1.4rem;
   margin-top: 2rem;
+  display: flexbox;
+  width: 300px;
+  border: 1px solid red;
+  justify-content: end;
   cursor: pointer;
   text-decoration: none;
 }
 
 .cta-button:hover {
   background-color: #c8132d;
+}
+
+.btn-hero {
+  width: 70%;
+  background-color: #e71b36;
 }
 @media (max-width: 575.98px) {
   .hero-title {

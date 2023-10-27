@@ -5,7 +5,6 @@ import Welcome from "../../components/welcome/Welcome";
 import RestaurantComp from "../../components/restaurantComp/RestaurantComp";
 import AboutUsHome from "../../components/aboutUsHome/AboutUsHome";
 import Carousel from "../../components/carousel/Carousel";
-import Footer from "../../components/footer/Footer";
 
 function Home() {
   return (

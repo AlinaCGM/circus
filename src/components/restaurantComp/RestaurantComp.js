@@ -19,31 +19,41 @@ function RestaurantComp() {
   return (
     <section className="restaurant-section">
       <h2>What you'll find on our menu</h2>
-      <div className="row-card-wrapper">
-        <Card
-          src={ellipse1}
-          alt="Plate with beff, rosemary and potato"
-          title="À la carte"
-          description="Enjoy our à la carte with various dishes ranging from veggie to not veggie."
-        />
-        <Card
-          src={ellipse2}
-          alt="Pokebowl"
-          title="Raw food"
-          description="Choose between a variety of our raw 'cooked' dishes."
-        />
-        <Card
-          src={ellipse3}
-          alt="Cake"
-          title="Dessert"
-          description="You must try out some of our delicious cakes."
-        />
-        <Card
-          src={ellipse4}
-          alt="Cocktail"
-          title="Cocktails"
-          description="Sit down in our bar and enjoy a well-made cocktail or mocktail."
-        />
+      <div className="row-card-wrapper ">
+        <div className="row">
+          <div className="col-sm-6 col-lg-3">
+            <Card
+              src={ellipse1}
+              alt="Plate with beff, rosemary and potato"
+              title="À la carte"
+              description="Enjoy our à la carte with various dishes ranging from veggie to not veggie."
+            />
+          </div>
+          <div className="col-sm-6 col-lg-3">
+            <Card
+              src={ellipse2}
+              alt="Pokebowl"
+              title="Raw food"
+              description="Choose between a variety of our raw 'cooked' dishes."
+            />
+          </div>
+          <div className="col-sm-6 col-lg-3">
+            <Card
+              src={ellipse3}
+              alt="Cake"
+              title="Dessert"
+              description="You must try out some of our delicious cakes."
+            />
+          </div>
+          <div className="col-sm-6 col-lg-3">
+            <Card
+              src={ellipse4}
+              alt="Cocktail"
+              title="Cocktails"
+              description="Sit down in our bar and enjoy a well-made cocktail or mocktail."
+            />
+          </div>
+        </div>
       </div>
     </section>
   );
