@@ -7,7 +7,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function AboutUs() {
   return (
     <div className="container-about ">
-      <h2 className="title-about pt-5">About Us</h2>
+     <header className="text-center pt-5">
+          <h2>About Us</h2>
+        </header>
 
       <div className="row ">
         <div className=" col-sm-10 col-lg-6 mb-3 mx-sm-auto ">
