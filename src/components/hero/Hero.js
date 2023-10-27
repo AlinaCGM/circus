@@ -17,7 +17,7 @@ function Hero() {
   return (
     <div className="container-hero">
       <div className="title-div">
-        <h1 className="hero-title">Star Five</h1>
+        <h1 className="hero-title">Star Five </h1>
 
         <h2 className="hero-slogan">Experience the Magic!</h2>
 

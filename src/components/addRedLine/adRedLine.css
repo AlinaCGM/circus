@@ -1,0 +1,8 @@
+.ad-container {
+  height: 200px;
+  background-image: url(../../assets/6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}

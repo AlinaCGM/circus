@@ -6,7 +6,7 @@ import acrobats from "../../assets/acrobats.jpg";
 import circusText from "../../assets/circus-text.jpg";
 import clown from "../../assets/face-paint-clown.jpg";
 
-function BookingComponent() {
+function BookingComponent({ closePopup }) {
   const [showDetails, setShowDetails] = useState(false);
   const [showDetails1, setShowDetails1] = useState(false);
   const [showDetails2, setShowDetails2] = useState(false);
@@ -23,11 +23,12 @@ function BookingComponent() {
 
   return (
     <Container className="containerStyle">
+      <button onClick={closePopup}>Close</button>
       <Row>
         <Col md={12}>
           <div className="d-grid gap-2">
             <Button variant="danger" size="lg">
-              Upcoming Shows
+              Upcoming Shows in November
             </Button>
           </div>
 

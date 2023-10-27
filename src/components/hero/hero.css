@@ -5,7 +5,7 @@
 .container-hero {
   width: 100%;
   height: 70vh;
-  background-image: url(../../assets/7.jpg);
+  background-image: url(../../assets/44.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -18,33 +18,30 @@
   font-size: 8rem;
   font-family: "Kalam", cursive;
   text-shadow: 1px 3px #e71b36;
-  backdrop-filter: blur(5px);
+
   width: fit-content;
   margin: auto;
 }
 .hero-slogan {
-  /* font-family: "Mitr", sans-serif; */
   font-family: "Mitr", sans-serif;
   letter-spacing: 3px;
 }
 .title-div {
+  backdrop-filter: blur(5px);
   width: fit-content;
   margin-left: auto;
   margin-right: 10%;
+  padding-block: 50px;
 }
-.cta-div {
+.cta-button {
   font-family: "Poppins", sans-serif;
-  padding: 0.8rem 1.6rem;
+  padding: 5px 20px;
 
   color: white;
   border: none;
   border-radius: 5px;
   font-size: 1.4rem;
   margin-top: 2rem;
-  display: flexbox;
-  width: 300px;
-  border: 1px solid red;
-  justify-content: end;
   cursor: pointer;
   text-decoration: none;
 }
@@ -54,8 +51,10 @@
 }
 
 .btn-hero {
-  width: 70%;
   background-color: #e71b36;
+  max-width: 250px;
+  margin: auto;
+  border-radius: 5px;
 }
 @media (max-width: 575.98px) {
   .hero-title {
@@ -76,16 +75,7 @@
     margin-left: auto;
     margin-right: 10%;
   }
-  .cta-button {
-    font-family: "Poppins", sans-serif;
-    padding: 0.4rem 1.2rem;
-    background-color: #e71b36;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.4rem;
-    margin-top: 2rem;
-    cursor: pointer;
-    text-decoration: none;
+  .btn-hero {
+    max-width: 200px;
   }
 }
