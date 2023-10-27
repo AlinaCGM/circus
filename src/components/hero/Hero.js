@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import logo from "../../assets/logo.png";
 import "./hero.css";
-import Booking from "../booking/Booking";
+import Booking from "../booking/BookingComponent";
 
 function Hero() {
   const [isBookingOpen, setBookingOpen] = useState(false);
