@@ -48,7 +48,7 @@ function NavBarHome() {
             <NavLink
               eventKey="3"
               as={Link}
-              to="/contact"
+              to="/shows"
               style={{ color: "white" }}
             >
               Shows
