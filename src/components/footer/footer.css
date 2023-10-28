@@ -3,15 +3,15 @@
   margin: 0;
   padding: 0;
 }
-
+.footer-container {
+  padding-inline: 15px;
+}
 footer {
   color: #fff;
   background-color: #343438;
   line-height: 2;
   padding: 2rem 0;
   font-family: "Montserrat", sans-serif;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
 }
 
 .footer-heading {
@@ -50,7 +50,7 @@ address {
   padding: 0;
 }
 form {
-  width: 300px;
+  max-width: 300px;
   margin: auto;
 }
 .icon {

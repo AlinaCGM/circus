@@ -1,19 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
+import { Link } from "react-router-dom";
+
 import logo from "../../assets/logo.png";
 import "./hero.css";
-import Booking from "../booking/BookingComponent";
 
 function Hero() {
-  const [isBookingOpen, setBookingOpen] = useState(false);
-
-  const openBookingPopup = () => {
-    setBookingOpen(true);
-  };
-
-  const closeBookingPopup = () => {
-    setBookingOpen(false);
-  };
-
   return (
     <div className="container-hero">
       <div className="title-div">
@@ -29,13 +20,12 @@ function Hero() {
             </a>
           </div>
           <div className="mt-4 btn-hero">
-            <a href="#" className="cta-button" onClick={openBookingPopup}>
+            <Link className="cta-button" eventKey="5" as={Link} to="/book">
               Book
-            </a>
+            </Link>
           </div>
         </div>
       </div>
-      {isBookingOpen && <Booking closePopup={closeBookingPopup} />}
     </div>
   );
 }

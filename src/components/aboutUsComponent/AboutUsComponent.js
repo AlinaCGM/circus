@@ -1,17 +1,16 @@
 import React from "react";
-import "./aboutUsHome.css";
-import homegirlsImage from "../../assets/2.jpg";
-import homegirlsImage1 from "../../assets/1.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function AboutUs() {
+import "./aboutUsComponent.css";
+
+function AboutUsComponent() {
   return (
-    <div className="container-about ">
+    <div className="container-about-component ">
       <h2 className="title-about">What you will find on the stage</h2>
 
       <div className="row ">
-        <div className=" col-sm-10 col-lg-6 mb-3 mx-sm-auto content-about-border">
-          <p className="content-about px-4">
+        <div className=" col-sm-10 col-lg-6 mb-3 mx-sm-auto about-border-component">
+          <p className="content-about-component px-4">
             At our circus-themed restaurant, there's a special stage where
             amazing performers do incredible things while you enjoy your meal.
             They make your dinner a real show! Acrobats do flips, people bend in
@@ -26,8 +25,8 @@ function AboutUs() {
         <div className="image-bg1 col-sm-10 col-lg-6 mb-3 mx-sm-auto "></div>
 
         <div className=" image-bg  col-sm-10  col-lg-6 mb-3 mx-sm-auto "></div>
-        <div className=" col-sm-10  col-lg-6 mb-3 mx-sm-auto content-about-border">
-          <p className="content-about px-4">
+        <div className=" col-sm-10  col-lg-6 mb-3 mx-sm-auto about-border-component">
+          <p className="content-about-component px-4">
             Step right into our enchanting circus-themed restaurant, where your
             dining experience is transformed into a captivating spectacle. As
             you savor your meal, the stage comes alive with a group of talented
@@ -45,4 +44,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default AboutUsComponent;

@@ -1,10 +1,10 @@
 import React from "react";
+
 import meatDish from "../../assets/meat.jpg";
 import salad from "../../assets/salad.jpg";
 import dessert from "../../assets/dessert.jpg";
 import drinks from "../../assets/drink.jpg";
 import "./restaurantComp.css";
-import { Button } from "react-bootstrap";
 
 function RestaurantPage() {
   return (

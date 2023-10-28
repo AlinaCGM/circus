@@ -6,7 +6,7 @@ import Restaurant from "./pages/restaurant/Restaurant";
 import BookingPage from "./pages/booking/BookingPage";
 import Footer from "./components/footer/Footer";
 import NavBarHome from "./components/navbar/NavBarHome";
-import AboutUs from "./components/aboutUs/AboutUs";
+import AboutUsPage from "./pages/aboutUsPage/AboutUsPage";
 import ContactPage from "./pages/contactus/ContactUs";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/restaurant" element={<Restaurant />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/about" element={<AboutUs />} />
+          <Route path="/about" element={<AboutUsPage />} />
           <Route path="/book" element={<BookingPage />} />
         </Routes>
         <Footer />

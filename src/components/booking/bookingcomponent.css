@@ -1,3 +1,10 @@
 .containerStyle {
   margin-bottom: 2rem;
+  position: relative;
+}
+.closeBtn {
+  width: 30px;
+  background-color: transparent;
+  position: absolute;
+  right: 10px;
 }

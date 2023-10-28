@@ -1,4 +1,4 @@
-.container-about {
+.container-about-page {
   width: 90%;
   margin: auto;
 }
@@ -6,6 +6,7 @@
   color: #fff;
   font-family: "Kalam", cursive;
   font-size: 2rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
@@ -21,19 +22,20 @@
   color: #fff;
   background-color: transparent;
 }
-.content-about-border {
+.content-about-page {
   background-color: rgb(52, 52, 56, 0.5);
 }
-.image-bg {
-  height: 400px;
-  background-image: url(../../assets/1.jpg);
+.image-bg-page1 {
+  min-height: 400px;
+  max-height: auto;
+  background-image: url(../../assets/6.jpg);
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
 }
-.image-bg1 {
+.image-bg-page2 {
   height: 400px;
-  background-image: url(../../assets/2.jpg);
+  background-image: url(../../assets/9.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

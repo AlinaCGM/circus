@@ -1,0 +1,40 @@
+.container-about-component {
+  width: 90%;
+  margin: auto;
+}
+.title-about {
+  color: #fff;
+  font-family: "Kalam", cursive;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.content-about-component {
+  padding-block: 20px;
+  line-height: 1.6rem;
+  text-align: start;
+  letter-spacing: 1.2px;
+  color: #fff;
+}
+
+.image-bg {
+  height: 400px;
+  background-image: url(../../assets/1.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+.image-bg1 {
+  height: 400px;
+  background-image: url(../../assets/2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.about-border-component {
+  background-color: rgb(52, 52, 56, 0.5);
+}

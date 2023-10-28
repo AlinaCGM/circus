@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./restaurantComp.css";
 import ellipse1 from "../../assets/ellipse1.png";
 import ellipse2 from "../../assets/ellipse2.png";
@@ -7,7 +8,7 @@ import ellipse4 from "../../assets/ellipse4.png";
 
 function Card({ src, alt, title, description }) {
   return (
-    <a href="">
+    <a href="/restaurant">
       <article id="card">
         <img src={src} alt={alt}></img>
         <h3>{title}</h3>

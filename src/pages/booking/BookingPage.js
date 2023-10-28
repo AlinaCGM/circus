@@ -9,8 +9,6 @@ function BookingPage() {
         <h2>Book the tickets</h2>
       </header>
       <BookingComponent />
-      <BookingComponent />
-      <BookingComponent />
     </div>
   );
 }

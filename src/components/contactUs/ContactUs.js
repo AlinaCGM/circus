@@ -1,7 +1,6 @@
 import React from "react";
 import MapPlaceholder from "../../assets/placeholder-map.png";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./contactUs.css";
 import {
   Form,
   Button,
@@ -10,6 +9,8 @@ import {
   Row,
   Col,
 } from "react-bootstrap";
+
+import "./contactUs.css";
 
 function ContactUs() {
   return (

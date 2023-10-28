@@ -1,18 +1,17 @@
 import React from "react";
-import "./aboutUs.css";
-import homegirlsImage from "../../assets/6.jpg";
-import homegirlsImage1 from "../../assets/9.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function AboutUs() {
+import "./aboutUsPage.css";
+
+function AboutUsPage() {
   return (
-    <div className="container-about ">
+    <div className="container-about-page ">
       <header className="text-center pt-4">
         <h2>About Us</h2>
       </header>
 
       <div className="row ">
-        <div className=" col-sm-10 col-lg-6 mb-3 mx-sm-auto ">
+        <div className=" col-sm-10 col-lg-6 mb-3 mx-sm-auto content-about-page">
           <p className="content-about px-4">
             Located in the heart of the city, our establishment offers an
             enchanting dining experience that transcends the ordinary. With a
@@ -32,24 +31,10 @@ function AboutUs() {
             with you long after you leave our doors.
           </p>
         </div>
-        <div className=" col-sm-10 col-lg-6 mb-3 mx-sm-auto ">
-          <img
-            width="100%"
-            src={homegirlsImage}
-            alt="Homegirls"
-            className="img-fluid"
-          />
-        </div>
+        <div className="image-bg-page1 col-sm-10 col-lg-6 mb-3 mx-sm-auto "></div>
 
-        <div className="  col-sm-10  col-lg-6 mb-3 mx-sm-auto ">
-          <img
-            width="100%"
-            src={homegirlsImage1}
-            alt="Homegirls"
-            className="img-fluid"
-          />
-        </div>
-        <div className=" col-sm-10  col-lg-6 mb-3 mx-sm-auto ">
+        <div className=" image-bg-page2 col-sm-10  col-lg-6 mb-3 mx-sm-auto "></div>
+        <div className=" col-sm-10  col-lg-6 mb-3 mx-sm-auto content-about-page">
           <p className="content-about px-4">
             Our venue provides a captivating dining adventure that goes beyond
             the usual. With a lively and fantastical atmosphere, Star 5
@@ -66,4 +51,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default AboutUsPage;

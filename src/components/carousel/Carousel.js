@@ -1,6 +1,7 @@
 import React from "react";
-import "./carousel.css";
 import CarouselTemplate from "react-bootstrap/Carousel";
+
+import "./carousel.css";
 import acrobats from "../../assets/acrobats.jpg";
 import circusText from "../../assets/circus-text.jpg";
 import clown from "../../assets/face-paint-clown.jpg";

@@ -1,11 +1,34 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Navbar, Nav, NavLink } from "react-bootstrap";
 import { Link } from "react-router-dom";
+
 import "./navbar.css";
 
 function NavBarHome() {
+  const [scrolling, setScrolling] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const navContainerClass = scrolling
+    ? "nav-container scrolled"
+    : "nav-container";
+
   return (
-    <div className="nav-container">
+    <div className={navContainerClass}>
       <Navbar
         collapseOnSelect
         expand="sm"
