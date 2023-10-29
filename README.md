@@ -1,70 +1,65 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Star-Five Circus and Restaurant Website
 
-## Available Scripts
+![logo](https://github.com/AlinaCGM/circus/assets/71669291/66f3070c-a133-49e8-88f6-a020af87cc74)
 
-In the project directory, you can run:
+Star-Five is a circus and restaurant website built using React. It consists of 5 pages and features clean, reusable code for a seamless user experience. The website is deployed and can be accessed at [https://star-five.netlify.app/](https://star-five.netlify.app/).
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 5 pages showcasing the circus and restaurant's offerings.
+- Utilizes React for a dynamic and interactive user experience.
+- Integration of Bootstrap and React Bootstrap for a modern and responsive design.
+- Icons from React Icons to enhance the visual appeal.
+- Navigation between pages facilitated by React Router.
+- Clean and reusable code for maintainability.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To set up this project on your local machine, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/star-five.git
+Change to the project directory:
 
-### `npm run build`
+bash
+Copy code
+cd star-five
+Install the project dependencies using npm or yarn:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
+Copy code
+npm install
+# or
+yarn install
+Usage
+To run the project locally, use the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+bash
+Copy code
+npm start
+# or
+yarn start
+This will start a development server, and you can access the website in your browser at http://localhost:3000.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Dependencies
+The project relies on the following dependencies, which can be found in the package.json file:
 
-### `npm run eject`
+Bootstrap
+React
+React Bootstrap
+React Icons
+React Router Dom
+React Scripts
+Make sure to have these dependencies installed for the project to work correctly.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributing
+Contributions to this project are welcome. If you'd like to contribute, please follow these guidelines:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Make your changes and ensure that the code is clean and follows the project's coding standards.
+Create a pull request to merge your changes into the main repository.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
