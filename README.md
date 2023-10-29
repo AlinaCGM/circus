@@ -1,6 +1,6 @@
 # Star-Five Circus and Restaurant Website
 
-![Star-Five Logo](![logo](https://github.com/AlinaCGM/circus/assets/71669291/66f3070c-a133-49e8-88f6-a020af87cc74)
+(![logo](https://github.com/AlinaCGM/circus/assets/71669291/66f3070c-a133-49e8-88f6-a020af87cc74)
 
 
 Star-Five is a circus and restaurant website built using React. It consists of 5 pages and features clean, reusable code for a seamless user experience. The website is deployed and can be accessed at [https://star-five.netlify.app/](https://star-five.netlify.app/).
