@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import BookingComponent from "../../components/booking/BookingComponent";
 
 function BookingPage() {

@@ -1,4 +1,5 @@
 import React from "react";
+
 import RestaurantPage from "../../components/restaurantComp/RestaurantPage";
 import "./restaurant.css";
 
